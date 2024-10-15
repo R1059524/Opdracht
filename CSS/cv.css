@@ -1,0 +1,49 @@
+.cv-header {
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 2vh;
+    background-color:rgba(0,0,0,0.8);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 20vw;
+    padding: 1.5vh 0;
+    border: rgba(255,255,255,0.4) 1px solid;
+}
+.cv-header h1 {
+    font-size: 1.2vw;
+}
+
+.cv-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1.5vw;
+    margin: 10vh 4vw 0vh 4vw;
+}
+.cv-grid-1, .cv-grid-2, .cv-grid-3, .cv-grid-4 {
+    background-color:rgba(0,0,0,0.8);
+    color: white;
+    padding: 2vh 0.4vw 2vh 0.4vw;
+    border-radius: 20px;
+    border: rgba(255,255,255,0.4) 1px solid;
+    text-align: center;
+}
+.cv-grid-1 h1, .cv-grid-2 h1, .cv-grid-3 h1, .cv-grid-4 h1 {
+    font-size: 1.2vw;
+    margin-bottom: 1vh;
+}
+.cv-grid-1 p, .cv-grid-2 p, .cv-grid-3 p, .cv-grid-4 p {
+    font-size: 0.9vw;
+}
+span.locatie {
+    color: lightgreen;
+}
+span.plaats {
+    color: white;
+}
+span.functie {
+    color: red;
+}
+p {
+    margin-top: 0.5vh;
+}
