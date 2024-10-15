@@ -1,0 +1,90 @@
+/* START OF INDEX */
+
+.index-grid-container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+        "indexheader indexheader"
+        "indeximage indextext";
+    gap: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.index-grid-head {
+    grid-area: indexheader;
+    margin-top: 5rem;
+    margin-left: calc(55% - 17em);
+    margin-bottom: 5rem;
+    text-align: center;
+    /* parallellogram */
+    width: 30rem;
+    --parallellogram: 20px;
+    padding: 1em;
+    clip-path: polygon(var(--parallellogram) 0,100% 0,calc(100% - var(--parallellogram)) 100%,0 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(115,115,115,0.8) 54%, rgba(255,255,255,0.8) 100%);
+    color: white;
+    font-size: 18px;
+}
+
+.index-grid-image {
+    grid-area: indeximage;
+    background-color: rgb(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+    width: 18rem;
+    border-radius: 20px;
+}
+.index-grid-image-image {
+    max-width: 100%;
+    height: 40rem;
+    width: auto;
+    border-radius: 15px;
+    border: rgba(255,255,255,0.4) 1px solid;
+}
+.index-grid-image-image:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s;
+}
+.index-grid-image-image:not(:hover) {
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.index-grid-main {
+    grid-area: indextext;
+    background-color: rgb(0,0,0,0.8);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 16vw;
+    top: 0;
+    margin-top: 20%;
+    margin-left: 10rem;
+    text-align: center;
+    border: rgba(255,255,255,0.4) 1px solid;
+}
+.index-main-hallo {
+    font-size: 26px;
+    font-weight: bold;
+}
+.index-grid-main-text {
+    font-size: 18px;
+    width: 100%;
+    color: white;
+}
+.index-main-text-hyperlinks {
+    text-decoration: none;
+    font-weight: bold;
+    cursor: cell;
+    color: white;
+}
+
+/* END OF INDEX */
