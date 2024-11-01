@@ -1,0 +1,11 @@
+.logoadsr {
+    height: 2rem;
+}
+
+.navbar-brand {
+    margin-right: 4rem;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0.5;
+}
