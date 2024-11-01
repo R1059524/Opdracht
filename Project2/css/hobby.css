@@ -1,0 +1,14 @@
+.container {
+    max-width: 70vw;
+    background-color: rgba(43,48,53,0.8);
+}
+
+li {
+    list-style: none;
+}
+.red {
+    color: red;
+}
+.green {
+    color: lightgreen;
+}

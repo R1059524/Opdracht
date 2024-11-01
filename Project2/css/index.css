@@ -1,0 +1,31 @@
+.container {
+    color: white;
+}
+
+.jumbotron-img {
+    height: 38rem;
+    border-radius: 20px;
+    border: rgba(255,255,255,0.4) 1px solid;
+}
+
+.jumbotron-welkom {
+    background-color: rgba(43,48,53,0.8);
+    border: 1px solid #495057;
+    border-radius: 2rem;
+    padding-top: 1.2rem;
+}
+
+.index-jumbotron-a {
+    text-decoration: none;
+    font-weight: bold;
+    cursor: cell;
+    color: white;
+}
+
+.cards-row {
+    margin-top: 8%;
+}
+.card-img-top {
+    height: 10vh;
+    object-fit: cover;
+}

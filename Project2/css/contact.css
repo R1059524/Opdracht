@@ -1,0 +1,7 @@
+.container {
+    max-width: 70vw;
+    background-color: rgba(43,48,53,0.8);
+}
+p {
+    font-size: 1.25rem;
+}
